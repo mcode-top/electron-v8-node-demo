@@ -22,7 +22,7 @@ touch greeting.cpp
 // 放入以下代码
 #include <node.h>
 using namespace v8;
-// 定义一个返回类型为 Napi String 的 greetHello 函数, 注意此处的 info
+
 void greetHello(const v8::FunctionCallbackInfo<Value> &args)
 {
     Isolate *isolate = args.GetIsolate();
